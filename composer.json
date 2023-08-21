@@ -1,0 +1,40 @@
+{
+    "name": "devua/salesteer-laravel",
+    "description": "Salesteer PHP Library",
+    "version": "1.0.0",
+    "keywords": [
+        "salesteer",
+        "crm",
+        "api"
+    ],
+    "homepage": "https://salesteer.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salesteer and contributors",
+            "homepage": "https://github.com/devua-git/salesteer-laravel/contributors"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "illuminate/contracts": "^9.21|^10.0",
+        "illuminate/http": "^9.21|^10.0",
+        "illuminate/log": "^9.21|^10.0",
+        "illuminate/pagination": "^9.21|^10.0",
+        "illuminate/routing": "^9.21|^10.0",
+        "illuminate/support": "^9.21|^10.0",
+        "nesbot/carbon": "^2.0",
+        "devua/salesteer-php-sdk": "^1.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Salesteer\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "extra": {}
+}
