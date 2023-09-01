@@ -25,14 +25,8 @@
         "illuminate/routing": "^8.0|^9.21|^10.0",
         "illuminate/support": "^8.0|^9.21|^10.0",
         "nesbot/carbon": "^2.0",
-        "devua/salesteer-php-sdk": "dev-main"
+        "devua/salesteer-php-sdk": "*"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/devua-git/salesteer-php-sdk"
-        }
-    ],
     "require-dev": {},
     "autoload": {
         "psr-4": {
