@@ -3,6 +3,7 @@
 namespace Salesteer\Laravel\Middleware;
 
 use Closure;
+use Illuminate\Support\Facades\Config;
 use Salesteer\Exception\SignatureVerificationException;
 use Salesteer\WebhookSignature;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
@@ -23,8 +24,8 @@ class VerifyWebhookSignature
         try {
             WebhookSignature::verifyHeader(
                 $request->getContent(),
-                config('salesteer.webhook.secret'),
-                config('salesteer.webhook.tolerance')
+                Config::get('salesteer.webhook.secret'),
+                Config::get('salesteer.webhook.tolerance')
             );
         } catch (SignatureVerificationException $exception) {
             throw new AccessDeniedHttpException($exception->getMessage(), $exception);
