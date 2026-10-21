@@ -82,16 +82,16 @@
         },
         {
             "name": "devua/salesteer-php-sdk",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devua-git/salesteer-php-sdk.git",
-                "reference": "b8372e62465734190f79270a61cea8ed35e6d3a2"
+                "reference": "b3ed5f60a0a7a96cd62bfd0c47712234a4895def"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devua-git/salesteer-php-sdk/zipball/b8372e62465734190f79270a61cea8ed35e6d3a2",
-                "reference": "b8372e62465734190f79270a61cea8ed35e6d3a2",
+                "url": "https://api.github.com/repos/devua-git/salesteer-php-sdk/zipball/b3ed5f60a0a7a96cd62bfd0c47712234a4895def",
+                "reference": "b3ed5f60a0a7a96cd62bfd0c47712234a4895def",
                 "shasum": ""
             },
             "require": {
@@ -131,9 +131,9 @@
             ],
             "support": {
                 "issues": "https://github.com/devua-git/salesteer-php-sdk/issues",
-                "source": "https://github.com/devua-git/salesteer-php-sdk/tree/v1.0.7"
+                "source": "https://github.com/devua-git/salesteer-php-sdk/tree/v1.0.8"
             },
-            "time": "2026-04-22T09:02:36+00:00"
+            "time": "2026-10-21T10:17:43+00:00"
         },
         {
             "name": "doctrine/inflector",
